@@ -1,0 +1,94 @@
+/* Import Font Family Embed Code  */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Azeret Mono", monospace; */
+
+
+/* Universal Style Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Universal Style End */
+
+ /* Full-Body common style start */
+body{
+    width: 1440px;
+    margin: 0 auto;
+    font-family: "Azeret Mono", monospace;
+    border: .1px solid black;
+}
+ /* Full-Body common style end */
+
+ /* Navbar section styles start*/
+ .nav_container{
+    width: 1140px;
+    margin: 0 auto;
+ }
+ .nav_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px;
+    margin-bottom: 36px;
+ }
+ .nav_content h3{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+ }
+ .nav_content button{
+    border-radius: 8px;
+    border: 1px solid #0D1321;
+    opacity: 80%;
+    padding: 17px 24px;
+ }
+ .nav_content button a{
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+ }
+ /* Navbar section styles end*/
+
+
+
+
+
+/* Header-Background section styles start*/
+ /* Header-Background section styles end*/
+
+
+
+ /* Web-Development section styles start*/
+ /* Web-Development section styles end*/
+
+
+
+ /* Inspiration section styles start*/
+ /* Inspiration section styles end*/
+
+
+
+ /* Current Target section styles start*/
+ /* Current Target section styles end*/
+
+
+
+ /* Next Target section styles start*/
+ /* Next Target section styles end*/
+
+
+
+ /* Need Support section styles start*/
+ /* Need Support section styles end*/
+
+
+
+ /* Footer section styles start*/
+ /* Footer section styles end*/
