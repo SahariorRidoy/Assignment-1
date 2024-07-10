@@ -1,151 +1,340 @@
 /* Import Font Family Embed Code  */
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 /* font-family: "Azeret Mono", monospace; */
 
-
 /* Universal Style Start */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* Universal Style End */
 
- /* Full-Body common style start */
-body{
-    width: 1440px;
-    margin: 0 auto;
-    font-family: "Azeret Mono", monospace;
+/* Full-Body common style start */
+body {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: "Azeret Mono", monospace;
 }
- /* Full-Body common style end */
+/* Full-Body common style end */
 
- /* Navbar section styles start*/
- .nav_container{
-    width: 1140px;
-    margin: 0 auto;
- }
- .nav_content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 38px;
-    margin-bottom: 36px;
- }
- .nav_content h3{
-    color: #0D1321;
-    font-family: "Azeret Mono";
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 800;
- }
- .nav_content button{
-    border-radius: 8px;
-    border: 1px solid #0D1321;
-    opacity: 80%;
-    padding: 17px 24px;
- }
- .nav_content button a{
-    color: #0D1321;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
- }
- /* Navbar section styles end*/
+/* Navbar section styles start*/
+.nav_container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.nav_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 38px;
+  margin-bottom: 36px;
+}
+.nav_content h3 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+}
+.nav_content button {
+  border-radius: 8px;
+  border: 1px solid #0d1321;
+  opacity: 80%;
+  padding: 17px 24px;
+}
+.nav_content button a {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+/* Navbar section styles end*/
 
 /* Header-Background section styles start*/
-.banner_container{
-    width: 1440px;
-    min-height: 652px;
-    background-image: url(../images/Hero_background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
+.banner_container {
+  width: 1440px;
+  min-height: 652px;
+  background-image: url(../images/Hero_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
 }
-.banner_content{
-    display: flex;
-    width: 998px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
+.banner_content {
+  display: flex;
+  width: 998px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
 }
-.banner_content img{
-    width: 240px;
-    height: 240px;
-    margin-top: 26px;
+.banner_content img {
+  width: 240px;
+  height: 240px;
+  margin-top: 26px;
 }
-.banner_content h1{
-    color: #0D1321;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 68px; 
-    width: 998px;
-    margin-top: 32px;
+.banner_content h1 {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  width: 998px;
+  margin-top: 32px;
 }
-.banner_content p{
-    color: #0D1321;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
-    width: 852px;
-    margin-top: 24px;
+.banner_content p {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  width: 852px;
+  margin-top: 24px;
 }
-.banner_content button{
-    border-radius: 8px;
-    background: rgb(13, 19, 33);
-    display: flex;
-    padding: 21px 24px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 32px;
-    margin-bottom: 45px;
+.banner_content button {
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  display: flex;
+  padding: 21px 24px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 45px;
+  border: none;
 }
-.banner_content button a{
-    color: #FFF;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
+.banner_content button a {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
 }
- /* Header-Background section styles end*/
+/* Header-Background section styles end*/
 
+/* Web-Development section styles start*/
+.web_development_container {
+  width: 1140px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px;
+  margin: 0 auto;
+  margin-top: 74px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
 
+/* Starting web development section top part styles */
+.wev_dev_content_top {
+  text-align: center;
+  margin: 0 auto;
+  margin: 0 47px 48px 47px;
+}
+.wev_dev_content_top h2 {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
 
- /* Web-Development section styles start*/
- /* Web-Development section styles end*/
+/* Style for development section first flex-div */
+.wev_dev_content_one {
+  width: 946px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%);
+  margin-bottom: 32px;
+}
+.one_left_content {
+  min-width: 477px;
+}
+.one_left_content h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.one_left_content p {
+  width: 468px;
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.one_left_content button {
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  background: white;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+}
+.one_left_content button a {
+  text-decoration: none;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+.one_right_content {
+  width: 275px;
+  height: 240px;
+}
 
+/*  Style for web-development part second */
+.wev_dev_content_two {
+  width: 946px;
+  padding: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  margin-bottom: 32px;
+}
+.two_right_content {
+  display: flex;
+  width: 477px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 477px;
+  margin-right: 101px;
+}
+.two_right_content h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.two_right_content p {
+  width: 468px;
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.two_right_content button {
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  background: white;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+}
+.two_right_content button a {
+  text-decoration: none;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
 
+.two_left_content {
+  width: 240px;
+  height: 240px;
+}
 
- /* Inspiration section styles start*/
- /* Inspiration section styles end*/
+/* Style for web-development section third part */
+.wev_dev_content_last {
+  width: 946px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-bottom: 32px;
+}
+.last_left_content {
+  min-width: 477px;
+}
+.last_left_content h4 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.last_left_content p {
+  width: 468px;
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.last_left_content button {
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  background: white;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+}
+.last_left_content button a {
+  text-decoration: none;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+.last_right_content {
+  width: 275px;
+  height: 240px;
+}
+/* Web-Development section styles end*/
 
+/* Inspiration section styles start*/
+/* Inspiration section styles end*/
 
+/* Current Target section styles start*/
+/* Current Target section styles end*/
 
- /* Current Target section styles start*/
- /* Current Target section styles end*/
+/* Next Target section styles start*/
+/* Next Target section styles end*/
 
+/* Need Support section styles start*/
+/* Need Support section styles end*/
 
-
- /* Next Target section styles start*/
- /* Next Target section styles end*/
-
-
-
- /* Need Support section styles start*/
- /* Need Support section styles end*/
-
-
-
- /* Footer section styles start*/
- /* Footer section styles end*/
+/* Footer section styles start*/
+/* Footer section styles end*/
