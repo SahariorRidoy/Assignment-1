@@ -506,9 +506,171 @@ text-decoration-line: underline;
 /* Current Target section styles end*/
 
 /* Next Target section styles start*/
+.next_target_container{
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 49px;
+}
+.next_target_top_content{
+  width: 852px;
+  margin: 0 auto;
+  text-align: center;
+}
+.next_target_top_content h2{
+  color: #0D1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.next_target_top_content p{
+  color: #0D1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  opacity: 0.7;
+  margin-bottom: 48px;
+}
+
+/* react/node/mongodb start */
+.react_container{
+  width: 1140px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  padding: 40px;
+  margin-bottom: 24px;
+}
+.react_content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.react_left_content{
+  margin-right: 24px;
+}
+.react_right_content{
+  width: 941px;
+}
+.react_right_content h4{
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+.react_right_content p{
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  opacity: 0.7;
+  margin-bottom: 24px; 
+}
+.react_right_content a{
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+/* nodejs */
+.nodejs_container{
+  width: 1140px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  padding: 40px;
+  margin-bottom: 24px;
+}
+.nodejs_content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.node_left_content{
+  margin-right: 24px;
+
+}
+.node_right_content{
+  width: 892px;
+}
+.node_right_content h4{
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+.node_right_content p{
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.node_right_content a{
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+/* mongodb */
+.mongodb_container{
+  width: 1140px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  padding: 40px;
+  margin-bottom: 24px;
+}
+.mongodb_content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mongo_left_content{
+  margin-right: 24px;
+}
+.mongo_right_content{
+  width: 928px;
+}
+.mongo_right_content h4{
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+.mongo_right_content p{
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  opacity: 0.7;
+  margin-bottom: 24px; 
+}
+.mongo_right_content a{
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
 /* Next Target section styles end*/
 
 /* Need Support section styles start*/
+
 /* Need Support section styles end*/
 
 /* Footer section styles start*/
