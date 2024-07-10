@@ -1,7 +1,13 @@
-/* Import Font Family Embed Code  */
+/* Import Font Family From Google-Fonts Embed Code  */
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* font-family: "Azeret Mono", monospace; */
 
+/* ****************************
+1. All the styles (px written from the given figma file)
+2. Body container 1440px (Header+Footer).
+3. Main section container is 1140px as given in the figma file.
+**************************** */
 /* Universal Style Start */
 * {
   margin: 0;
@@ -260,7 +266,6 @@ body {
   font-weight: 600;
   font-style: normal;
 }
-
 .two_left_content {
   width: 240px;
   height: 240px;
@@ -394,6 +399,7 @@ body {
   line-height: 26px;
   margin-bottom: 48px;
 }
+
 /* Cards Start */
 .current_target_cards {
   display: flex;
@@ -428,13 +434,14 @@ body {
   margin-bottom: 24px;
 }
 .card_left a {
-  color: #0D1321;
-font-family: "Azeret Mono";
-font-size: 16px;
-font-weight: 700;
-text-decoration-line: underline;
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
 
+/* card-middle */
 .card_middle {
   width: 364px;
   padding: 40px;
@@ -463,12 +470,14 @@ text-decoration-line: underline;
   margin-bottom: 24px;
 }
 .card_middle a {
-  color: #0D1321;
-font-family: "Azeret Mono";
-font-size: 16px;
-font-weight: 700;
-text-decoration-line: underline;
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
+
+/* card-right */
 .card_right {
   width: 364px;
   padding: 40px;
@@ -497,82 +506,82 @@ text-decoration-line: underline;
   margin-bottom: 24px;
 }
 .card_right a {
-  color: #0D1321;
-font-family: "Azeret Mono";
-font-size: 16px;
-font-weight: 700;
-text-decoration-line: underline;
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
 /* Current Target section styles end*/
 
 /* Next Target section styles start*/
-.next_target_container{
+.next_target_container {
   width: 1140px;
   margin: 0 auto;
   margin-bottom: 49px;
 }
-.next_target_top_content{
+.next_target_top_content {
   width: 852px;
   margin: 0 auto;
   text-align: center;
 }
-.next_target_top_content h2{
-  color: #0D1321;
+.next_target_top_content h2 {
+  color: #0d1321;
   text-align: center;
   font-family: "Azeret Mono";
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 24px;
 }
-.next_target_top_content p{
-  color: #0D1321;
+.next_target_top_content p {
+  color: #0d1321;
   text-align: center;
   font-family: "Azeret Mono";
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; 
+  line-height: 26px;
   opacity: 0.7;
   margin-bottom: 48px;
 }
 
 /* react/node/mongodb start */
-.react_container{
+.react_container {
   width: 1140px;
   border-radius: 16px;
   border: 1px solid rgba(13, 19, 33, 0.15);
   padding: 40px;
   margin-bottom: 24px;
 }
-.react_content{
+.react_content {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.react_left_content{
+.react_left_content {
   margin-right: 24px;
 }
-.react_right_content{
+.react_right_content {
   width: 941px;
 }
-.react_right_content h4{
-  color: #0D1321;
+.react_right_content h4 {
+  color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
   margin-bottom: 8px;
 }
-.react_right_content p{
-  color: #0D1321;
+.react_right_content p {
+  color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; 
+  line-height: 26px;
   opacity: 0.7;
-  margin-bottom: 24px; 
+  margin-bottom: 24px;
 }
-.react_right_content a{
-  color: #0D1321;
+.react_right_content a {
+  color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 16px;
   font-weight: 700;
@@ -580,44 +589,43 @@ text-decoration-line: underline;
 }
 
 /* nodejs */
-.nodejs_container{
+.nodejs_container {
   width: 1140px;
   border-radius: 16px;
   border: 1px solid rgba(13, 19, 33, 0.15);
   padding: 40px;
   margin-bottom: 24px;
 }
-.nodejs_content{
+.nodejs_content {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.node_left_content{
+.node_left_content {
   margin-right: 24px;
-
 }
-.node_right_content{
+.node_right_content {
   width: 892px;
 }
-.node_right_content h4{
-  color: #0D1321;
+.node_right_content h4 {
+  color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
   margin-bottom: 8px;
 }
-.node_right_content p{
-  color: #0D1321;
+.node_right_content p {
+  color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; 
+  line-height: 26px;
   opacity: 0.7;
   margin-bottom: 24px;
 }
-.node_right_content a{
-  color: #0D1321;
+.node_right_content a {
+  color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 16px;
   font-weight: 700;
@@ -625,43 +633,43 @@ text-decoration-line: underline;
 }
 
 /* mongodb */
-.mongodb_container{
+.mongodb_container {
   width: 1140px;
   border-radius: 16px;
   border: 1px solid rgba(13, 19, 33, 0.15);
   padding: 40px;
   margin-bottom: 24px;
 }
-.mongodb_content{
+.mongodb_content {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.mongo_left_content{
+.mongo_left_content {
   margin-right: 24px;
 }
-.mongo_right_content{
+.mongo_right_content {
   width: 928px;
 }
-.mongo_right_content h4{
-  color: #0D1321;
+.mongo_right_content h4 {
+  color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
   margin-bottom: 8px;
 }
-.mongo_right_content p{
-  color: #0D1321;
+.mongo_right_content p {
+  color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px; 
+  line-height: 26px;
   opacity: 0.7;
-  margin-bottom: 24px; 
+  margin-bottom: 24px;
 }
-.mongo_right_content a{
-  color: #0D1321;
+.mongo_right_content a {
+  color: #0d1321;
   font-family: "Azeret Mono";
   font-size: 16px;
   font-weight: 700;
@@ -670,82 +678,100 @@ text-decoration-line: underline;
 /* Next Target section styles end*/
 
 /* Need Support section styles start*/
-  .need_support_container{
-    width: 1140px;
-    min-height: 313px;
-    margin: 0 auto;
-    border-radius: 16px;
-    background-color: rgba(13, 19, 33, .5);
-    background-blend-mode: overlay;
-    background-image: url(../images/handshake.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 64px 48px;
-    margin-bottom: 80px;
-  }
-  .support_content{
-    text-align: center;
-    margin: 0 auto;
-  }
-  .support_content_top{
-    width: 730px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .support_content_top h2{
-    color: #FFF;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 36px; 
-    margin-bottom: 16px;
-  }
-  .support_content_top p{
-    color: #FFF;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
-    margin-bottom: 24px;
-  }
-  .support_input input{
-    width: 548px;
-    border-radius: 8px;
-    border: 1px solid rgba(13, 19, 33, 0.15);
-    padding: 19px 20px;
-    border: none;
-    margin-right: 16px;
-
-  }
-  .support_input input::placeholder{
-    color: rgba(13, 19, 33, 0.40);
-    text-align: left;
-    font-family: "Azeret Mono";
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .support_input input:focus{
-    outline: none;
-  }
-  .support_input button{
-    border-radius: 8px;
-    background: #FFF;
-    padding: 17px 20px;
-  }
-  .support_input button a{
-    color: #0D1321;
-    text-align: center;
-    font-family: "Azeret Mono";
-    font-size: 20px;
-    font-weight: 600;
-    text-decoration: none;
-  }
-
+.need_support_container {
+  width: 1140px;
+  min-height: 313px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: rgba(13, 19, 33, 0.5);
+  background-blend-mode: overlay;
+  background-image: url(../images/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 64px 48px;
+  margin-bottom: 80px;
+}
+.support_content {
+  text-align: center;
+  margin: 0 auto;
+}
+.support_content_top {
+  width: 730px;
+  margin: 0 auto;
+  text-align: center;
+}
+.support_content_top h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.support_content_top p {
+  color: #fff;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.support_input input {
+  width: 548px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  padding: 19px 20px;
+  border: none;
+  margin-right: 16px;
+}
+.support_input input::placeholder {
+  color: rgba(13, 19, 33, 0.4);
+  text-align: left;
+  font-family: "Azeret Mono";
+  font-size: 16px;
+  font-weight: 400;
+}
+.support_input input:focus {
+  outline: none;
+}
+.support_input button {
+  border-radius: 8px;
+  background: #fff;
+  padding: 17px 20px;
+}
+.support_input button a {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
 /* Need Support section styles end*/
 
 /* Footer section styles start*/
+#footer_section{
+  width: 1440px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 32px 150px;
+  align-items: center;
+}
+.footer_content {
+  width: 1140px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social_icon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 /* Footer section styles end*/
